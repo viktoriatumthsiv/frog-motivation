@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title> FrogChaos API Demo</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1> FrogChaos API</h1>
+    <p class="subtitle">
+      Жаба знає більше, ніж ти думаєш
+    </p>
+
+    <div class="buttons">
+      <button data-endpoint="/frog/motivation">Мотивація</button>
+      <button data-endpoint="/frog/bug-prediction">Прогноз багів</button>
+      <button data-endpoint="/frog/excuse">Відмазка</button>
+      <button data-endpoint="/frog/truth">Гірка правда</button>
+    </div>
+
+    <pre id="result">Натисни кнопку — жаба відповість </pre>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
